@@ -1,0 +1,140 @@
+h1{
+margin: 100px auto 0 auto;
+font-family: 'Sacramento', cursive;
+font-size: 5rem;
+color:#11999E;
+
+}
+
+body{
+  margin: 0;
+  color:#40514E;
+  font-family:'Merriweather', serif;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color:#11999E;
+
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  width:5%;
+  margin:70px auto;
+}
+
+a{
+  font-family:'Montserrat', sans-serif;
+  color:black;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+
+.top-container{
+    background-color: #74d4c0;
+    position:relative;
+    padding-top: 80px;
+}
+.middle-container{
+  margin: 100px 0;
+
+
+}
+.bottom-container{
+    background-color: #74d4c0;
+    padding:50px 0 20px 0;
+
+}
+img{
+  height:40%;
+  width:65%;
+}
+.cloud-top{
+  height:150px;
+  width: 220px;
+  position:absolute;
+  right:250px;
+
+}
+.cloud-bottom{
+  position: absolute;
+  height:100px;
+  width: 150px;
+  left:300px;
+}
+.profile1
+{
+  height: 200px;
+  width:200px;
+}
+.programmer
+{
+  height: 30%;
+  width:30%;
+  float: left;
+  margin-right: 60px;
+}
+
+.cameraman{
+  height: 30%;
+  width:30%;
+  float: right;
+  margin-right: 60px;
+}
+
+.skill-row
+{
+  width:50%;
+  text-align: left;
+
+  margin:100px auto;
+}
+
+.copyright{
+  font-size:12px ;
+  color:#EAF6F6;
+}
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #70d9ff 5%, #408c99 100%);
+	background-color:#74d4c0;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #70d9ff 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
